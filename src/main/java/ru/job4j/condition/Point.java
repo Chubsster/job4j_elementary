@@ -5,7 +5,7 @@ import static java.lang.Math.sqrt;
 
 public class Point {
     public static double distance(int x1, int y1, int x2, int y2) {
-        double result6 = sqrt(pow(2, (x2 - x1) + (pow(2, (y2 - y1)))));
+        double result6 = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
         return result6;
     }
 
