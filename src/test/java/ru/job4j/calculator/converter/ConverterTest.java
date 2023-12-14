@@ -23,3 +23,4 @@ class ConverterTest {
         float value = 0.0001f;
         Assertions.assertThat(output).isEqualTo(expected, withPrecision(value));
     }
+}
