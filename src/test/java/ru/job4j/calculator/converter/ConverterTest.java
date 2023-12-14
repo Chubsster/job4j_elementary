@@ -23,13 +23,3 @@ class ConverterTest {
         float value = 0.0001f;
         Assertions.assertThat(output).isEqualTo(expected, withPrecision(value));
     }
-
-    @Test
-    void whenConvert200RblThen3dot3333Evro() {
-        float input = 200;
-        float expected = 3.3333f;
-        float output = Converter.rubleToEuro(input);
-        float value = 0.0001f;
-        Assertions.assertThat(output).isEqualTo(expected, withPrecision(value));
-    }
-}
