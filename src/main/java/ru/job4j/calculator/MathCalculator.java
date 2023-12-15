@@ -25,8 +25,8 @@ public class MathCalculator {
 
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат расчета равен:" + raznAndDelete(10, 20));
-        System.out.println("Резултат расчета равен:" + totalSum(10, 20));
+        System.out.println("Результат расчета равен:" + raznAndDelete(10, 5));
+        System.out.println("Резултат расчета равен:" + totalSum(10, 5));
     }
 }
 
