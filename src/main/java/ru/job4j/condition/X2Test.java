@@ -7,7 +7,7 @@ class X2Test {
 
     @Test
 
-    void whenABCXThen() {
+    void whenA10B0C0X2Then() {
         int a = 10;
         int b = 0;
         int c = 0;
