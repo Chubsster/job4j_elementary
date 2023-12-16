@@ -7,7 +7,7 @@ class X2Test {
 
     @Test
 
-    void whenA1B0C0X2Then40() {
+    void whenABCXThen() {
         int a = 10;
         int b = 0;
         int c = 0;
@@ -15,35 +15,26 @@ class X2Test {
         int expected = 40;
         int result = X2.calc(a, b, c, x);
         assertThat(result).isEqualTo(expected);
-    }
-
-    void whenA1B1CX1Then3() {
-        int a = 1;
-        int b = 1;
-        int c = 1;
-        int x = 1;
-        int expected = 3;
-        int result = X2.calc(a, b, c, x);
+        a = 1;
+        b = 1;
+        c = 1;
+        x = 1;
+        expected = 3;
+        result = X2.calc(a, b, c, x);
         assertThat(result).isEqualTo(expected);
-     }
-
-     void whenA0B1C0X1Then2() {
-        int a = 1;
-        int b = 1;
-        int c = 0;
-        int x = 1;
-        int expected = 2;
-        int result = X2.calc(a, b, c, x);
+        a = 1;
+        b = 1;
+        c = 0;
+        x = 1;
+        expected = 2;
+        result = X2.calc(a, b, c, x);
         assertThat(result).isEqualTo(expected);
-    }
-
-    void whenA1B1C1X0Then1() {
-        int a = 1;
-        int b = 1;
-        int c = 1;
-        int x = 0;
-        int expected = 1;
-        int result = X2.calc(a, b, c, x);
+        a = 1;
+        b = 1;
+        c = 1;
+        x = 0;
+        expected = 1;
+        result = X2.calc(a, b, c, x);
         assertThat(result).isEqualTo(expected);
     }
 }
