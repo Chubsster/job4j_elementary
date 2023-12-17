@@ -1,12 +1,12 @@
 package ru.job4j.condition;
 
 import static org.assertj.core.api.Assertions.*;
+
 import org.junit.jupiter.api.Test;
 
 class X2Test {
 
     @Test
-
     void whenA10B0C0X2Then40() {
         int a = 10;
         int b = 0;
@@ -18,7 +18,6 @@ class X2Test {
     }
 
     @Test
-
     void whenA1B1C1X1Then3() {
         int a = 1;
         int b = 1;
@@ -30,7 +29,6 @@ class X2Test {
     }
 
     @Test
-
     void whenA0B1C1X1Then2() {
         int a = 0;
         int b = 1;
@@ -42,7 +40,6 @@ class X2Test {
     }
 
     @Test
-
     void whenA1B1C1X0Then1() {
         int a = 1;
         int b = 1;
