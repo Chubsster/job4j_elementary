@@ -26,7 +26,7 @@ public class PointTest {
     }
 
     @Test
-    public void whenMinus32toMinus62then9dot43() {
+    public void whenMinus32toMinus62Then9dot43() {
         double expected = 9.43;
         int x1 = -3;
         int y1 = -6;
