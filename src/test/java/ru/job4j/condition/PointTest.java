@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.*;
 
 public class PointTest {
     @Test
-    public void when00To20Then2() {
+    public void when00To20then2() {
         double expected = 2;
         int x1 = 0;
         int y1 = 0;
@@ -27,7 +27,7 @@ public class PointTest {
     }
 
     @Test
-    public void whenMinus32toMinus62Then9dot43() {
+    public void whenMinus32toMinus62then9dot43() {
         double expected = 9.43;
         int x1 = -3;
         int y1 = -6;
@@ -38,7 +38,7 @@ public class PointTest {
     }
 
     @Test
-    public void when5Minus1to64Then6dot32() {
+    public void when5Minus1to64then6dot32() {
         double expected = 6.32;
         int x1 = 5;
         int y1 = 6;
