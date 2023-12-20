@@ -1,6 +1,7 @@
 package ru.job4j.calculator;
 
 import org.junit.jupiter.api.Test;
+import ru.job4j.calculator.converter.Fit;
 import static org.assertj.core.api.Assertions.*;
 
 public class FitTest {
