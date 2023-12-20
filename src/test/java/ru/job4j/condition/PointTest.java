@@ -37,7 +37,7 @@ public class PointTest {
     }
 
     @Test
-    public void when5Minus1to64then6dot32() {
+    public void when5Minus1to64Then6dot32() {
         double expected = 6.32;
         int x1 = 5;
         int y1 = 6;
