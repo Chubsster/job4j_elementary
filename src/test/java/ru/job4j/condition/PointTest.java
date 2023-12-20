@@ -1,6 +1,8 @@
 package ru.job4j.condition;
 
 import org.junit.jupiter.api.Test;
+import ru.job4j.condition.Point;
+
 import static org.assertj.core.api.Assertions.*;
 
 public class PointTest {
