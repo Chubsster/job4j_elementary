@@ -26,3 +26,4 @@ public class LogicNot {
         return notEven(num) || !notPositive(num);
     }
 }
+
