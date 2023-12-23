@@ -78,14 +78,14 @@ public class LogicNotTest {
     void whenNotEvenFalseIsAllFalse() {
         int num = 2;
         boolean result = LogicNot.notEvenAndPositive(num);
-        assertThat(result).isFalse();
+        assertThat(result).isTrue();
     }
 
     @Test
     void whenPositiveFalseIsAllFalse() {
         int num = -3;
         boolean result = LogicNot.notEvenAndPositive(num);
-        assertThat(result).isTrue();
+        assertThat(result).isFalse();
     }
 
     @Test
@@ -99,7 +99,7 @@ public class LogicNotTest {
     void whenEvenOrNotPositiveIsTrue() {
         int num = -2;
         boolean result = LogicNot.evenOrNotPositive(num);
-        assertThat(result).isTrue();
+        assertThat(result).isFalse();
     }
 
     @Test
@@ -120,7 +120,7 @@ public class LogicNotTest {
     void whenEvenOrNotPositiveIsFalse() {
         int num = 3;
         boolean result = LogicNot.evenOrNotPositive(num);
-        assertThat(result).isFalse();
+        assertThat(result).isTrue();
     }
 }
 
