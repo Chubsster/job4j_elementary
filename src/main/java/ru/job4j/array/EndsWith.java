@@ -3,10 +3,10 @@ package ru.job4j.array;
 public class EndsWith {
     public static boolean endsWith(char[] word, char[] postfix) {
         boolean result = true;
-        int index = word.length - 1;
-        for (int i = postfix.length - 1; i > 0; i++) {
-            if (word[index] != postfix[i]) {
+        for (int i = 0; i < postfix.length; i++) {
+            if (word[word.length - 1 - i] != postfix[postfix.length - 1 - i]) {
                 result = false;
+                break;
             }
             break;
         }
