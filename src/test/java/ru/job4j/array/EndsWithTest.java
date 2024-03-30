@@ -20,4 +20,3 @@ public class EndsWithTest {
         assertThat(result).isFalse();
     }
 }
-
