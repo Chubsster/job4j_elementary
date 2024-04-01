@@ -11,8 +11,8 @@ public class TwoNumberSum {
             }
             if (sum < target) {
                 i++;
-            }
-            i++;
+            } else
+            j--;
         }
         return new int[0];
     }
